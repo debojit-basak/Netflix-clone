@@ -21,7 +21,7 @@ function LoginScreen() {
                 <h2>Watch anywhere, Cancel at any time.</h2>
                 <h3>Ready to watch? Enter your email address to create or restart your membership.</h3>
                 <div className="loginScreen__input">
-                    <form action="">
+                    <form>
                         <input type="email" placeholder="Email Address"/>
                         <button onClick={()=> setSignIn(true)} className="loginScreen__getStarted">Get Started</button>
                     </form>
